@@ -1,0 +1,47 @@
+				body {
+					background-color: rgba(0, 0, 0, 0.03);
+					padding-top: 15px;
+					font-family: 'Lato', sans-serif;
+				}
+.flex-row .thumbnail,
+	height: auto;
+	position: relative;
+}
+
+				
+				.table-row,
+				.table-row-equal,
+				.flex-row,
+				.masonary-row {
+
+				}
+				.bootflex img {
+					min-width: 0;
+					width: 100%;
+				}
+				/* 
+	  Extra Small Devices, Phones { .col-xs-$ } 
+	    ~ 480px to 767px ~
+	
+	  Extra Small Devices, Phones { .col-sm-$ } 
+	    ~ 768px to 991px ~
+	
+	  Extra Small Devices, Phones { .col-md-$ } 
+	    ~ 992 to 1200px ~
+	
+	  Extra Small Devices, Phones { .col-lg-$ } 
+	    ~ 1201px up ~
+	 */
+				/* Demo Media Query Below for Retina Iphones and Smaller */
+				
+				@media only screen and (max-width: 480px) {
+					.row > [class*='col-'] {
+						width: 100%;
+					}
+					.row > [class*='col-'] {
+						width: 100%;
+					}
+				}
+				.flex-row.flex-code.row > [class*='col-'] .flex-text {
+		flex-grow: 1;
+}
